@@ -196,7 +196,7 @@ class Ui_Form(object):
             self.retranslateUi(Form)
 
     def avance(self):
-        # si len(tabmp3)=4 et self.id=3 on ne peut pas jaouter id car l'indice max est 4-1=3
+        # si len(tabmp3)=4 et self.id=3 on ne peut pas ajouter id car l'indice max est 4-1=3
         # on incremente id si id < (4-1)-1 donc id< 4-2
         if self.id<len(self.tabmp3)-2:
             self.id+=1
